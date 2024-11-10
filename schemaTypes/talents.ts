@@ -89,6 +89,12 @@ export default defineType({
           type: 'image',
         }),
         defineField({
+          name: 'list_background',
+          title: 'List Background',
+          description: 'For the sliding talent list background, 3:5 image',
+          type: 'image',
+        }),
+        defineField({
           name: 'detail_main',
           title: 'Detail Main',
           description: 'For the main image on talent detail, 4:6 image',
