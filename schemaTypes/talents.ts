@@ -91,7 +91,7 @@ export default defineType({
         defineField({
           name: 'list_background',
           title: 'List Background',
-          description: 'For the sliding talent list background ., 3:5 image',
+          description: 'For the sliding talent list background, 3:5 image',
           type: 'image',
         }),
         defineField({
