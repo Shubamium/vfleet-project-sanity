@@ -66,6 +66,11 @@ export default defineType({
           title: 'Mini About (Right)',
           type: 'string',
         }),
+        defineField({
+          name: 'small_art',
+          title: 'Small Art',
+          type: 'image',
+        }),
       ],
     }),
     defineField({
