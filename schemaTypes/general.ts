@@ -23,6 +23,12 @@ export default defineType({
       type: 'image',
     }),
     defineField({
+      name: 'donation_order',
+      title: 'Donations Ordering',
+      type: 'array',
+      of: [{type: 'reference', to: [{type: 'donation'}]}],
+    }),
+    defineField({
       name: 'hero_section',
       title: 'Hero Section Art List',
       description: 'Arts for the hero section on the home page',
