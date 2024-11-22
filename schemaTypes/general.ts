@@ -12,6 +12,7 @@ export default defineType({
       description: "Set as 'main' to use this preset",
       type: 'string',
     }),
+
     defineField({
       name: 'a1_art',
       title: 'A1 Image',
@@ -88,6 +89,11 @@ export default defineType({
         collapsed: true,
       },
       fields: [
+        defineField({
+          name: 'contact_banner',
+          title: 'Contact Banner',
+          type: 'image',
+        }),
         defineField({
           name: 'h1',
           type: 'text',
